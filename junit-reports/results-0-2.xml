@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Demo Test" timestamp="2024-10-08T10:33:53" time="2.567" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Demo Test"/>
+      <property name="capabilities" value="chrome.129_0_6668_90.mac"/>
+      <property name="file" value="file://./test/specs/test1.js"/>
+    </properties>
+    <testcase classname="chrome.129_0_6668_90.mac.Demo_Test" name="My First Test" time="2.564">
+      <system-out><![CDATA[
+COMMAND: GET /session/22b4033d84b9cd2f0ee6cfff32732f71/window - {}
+RESULT: {}
+COMMAND: POST /session/22b4033d84b9cd2f0ee6cfff32732f71/element - {"using":"css selector","value":"[name=\"q\"]"}
+RESULT: {"using":"css selector","value":"[name=\"q\"]"}
+COMMAND: POST /session/22b4033d84b9cd2f0ee6cfff32732f71/element/f.828E580A9403B796A0D180B4B0B1D270.d.6C97DD9FB55CAE209047DD51A214D377.e.1/clear - {}
+RESULT: {}
+COMMAND: POST /session/22b4033d84b9cd2f0ee6cfff32732f71/element/f.828E580A9403B796A0D180B4B0B1D270.d.6C97DD9FB55CAE209047DD51A214D377.e.1/value - {"text":"WebdriverIO"}
+RESULT: {"text":"WebdriverIO"}
+COMMAND: POST /session/22b4033d84b9cd2f0ee6cfff32732f71/element/f.828E580A9403B796A0D180B4B0B1D270.d.6C97DD9FB55CAE209047DD51A214D377.e.14/click - {}
+COMMAND: POST /session/22b4033d84b9cd2f0ee6cfff32732f71/element/f.828E580A9403B796A0D180B4B0B1D270.d.6C97DD9FB55CAE209047DD51A214D377.e.14/click - {}
+COMMAND: GET /session/22b4033d84b9cd2f0ee6cfff32732f71/window - {}
+RESULT: {}
+RESULT: {}
+COMMAND: DELETE /session/22b4033d84b9cd2f0ee6cfff32732f71 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

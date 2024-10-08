@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Demo Tests" timestamp="2024-10-08T10:33:53" time="0.922" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Demo Tests"/>
+      <property name="capabilities" value="chrome.129_0_6668_90.mac"/>
+      <property name="file" value="file://./test/specs/logintest.js"/>
+    </properties>
+    <testcase classname="chrome.129_0_6668_90.mac.Demo_Tests" name="Login Test" time="0.92">
+      <system-out><![CDATA[
+COMMAND: GET /session/58fcbf07191f138f7682b6f17d19ff8e/window - {}
+RESULT: {}
+COMMAND: POST /session/58fcbf07191f138f7682b6f17d19ff8e/element - {"using":"css selector","value":"#username"}
+RESULT: {"using":"css selector","value":"#username"}
+COMMAND: POST /session/58fcbf07191f138f7682b6f17d19ff8e/element/f.4BA74E825ABFCBCD1C49B1B2CAE86CE3.d.89062A394BCB8D51911CBB21DC941351.e.2/clear - {}
+RESULT: {}
+COMMAND: POST /session/58fcbf07191f138f7682b6f17d19ff8e/element/f.4BA74E825ABFCBCD1C49B1B2CAE86CE3.d.89062A394BCB8D51911CBB21DC941351.e.2/value - {"text":"tomsmith"}
+RESULT: {"text":"tomsmith"}
+COMMAND: POST /session/58fcbf07191f138f7682b6f17d19ff8e/element/f.4BA74E825ABFCBCD1C49B1B2CAE86CE3.d.89062A394BCB8D51911CBB21DC941351.e.4/clear - {}
+RESULT: {}
+COMMAND: POST /session/58fcbf07191f138f7682b6f17d19ff8e/element/f.4BA74E825ABFCBCD1C49B1B2CAE86CE3.d.89062A394BCB8D51911CBB21DC941351.e.4/value - {"text":"SuperSecretPassword!"}
+RESULT: {"text":"SuperSecretPassword!"}
+COMMAND: POST /session/58fcbf07191f138f7682b6f17d19ff8e/element/f.4BA74E825ABFCBCD1C49B1B2CAE86CE3.d.89062A394BCB8D51911CBB21DC941351.e.5/click - {}
+COMMAND: GET /session/58fcbf07191f138f7682b6f17d19ff8e/window - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/58fcbf07191f138f7682b6f17d19ff8e/element/f.4BA74E825ABFCBCD1C49B1B2CAE86CE3.d.6CA2A375989DD389308CE27A70903A95.e.14/text - {}
+RESULT: {}
+COMMAND: DELETE /session/58fcbf07191f138f7682b6f17d19ff8e - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
