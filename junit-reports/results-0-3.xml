@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Demo Test" timestamp="2024-10-08T17:09:06" time="3.324" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Demo Test"/>
+      <property name="capabilities" value="chrome.129_0_6668_90.mac"/>
+      <property name="file" value="file://./test/specs/test1.js"/>
+    </properties>
+    <testcase classname="chrome.129_0_6668_90.mac.Demo_Test" name="My First Test" time="3.321">
+      <system-out><![CDATA[
+COMMAND: GET /session/3df6c5a136c93f956fa17cffcf126400/window - {}
+RESULT: {}
+COMMAND: POST /session/3df6c5a136c93f956fa17cffcf126400/element - {"using":"css selector","value":"[name=\"q\"]"}
+COMMAND: GET /session/3df6c5a136c93f956fa17cffcf126400/window - {}
+RESULT: {"using":"css selector","value":"[name=\"q\"]"}
+COMMAND: POST /session/3df6c5a136c93f956fa17cffcf126400/element/f.0BC465A10FB522F0D2E2917BF3F8DDC9.d.B19AFEA4D16C27E0EBF9EDD4A52867FF.e.1/clear - {}
+RESULT: {}
+RESULT: {}
+COMMAND: POST /session/3df6c5a136c93f956fa17cffcf126400/element/f.0BC465A10FB522F0D2E2917BF3F8DDC9.d.B19AFEA4D16C27E0EBF9EDD4A52867FF.e.1/value - {"text":"WebdriverIO"}
+RESULT: {"text":"WebdriverIO"}
+COMMAND: POST /session/3df6c5a136c93f956fa17cffcf126400/element/f.0BC465A10FB522F0D2E2917BF3F8DDC9.d.B19AFEA4D16C27E0EBF9EDD4A52867FF.e.17/click - {}
+COMMAND: POST /session/3df6c5a136c93f956fa17cffcf126400/element/f.0BC465A10FB522F0D2E2917BF3F8DDC9.d.B19AFEA4D16C27E0EBF9EDD4A52867FF.e.17/click - {}
+COMMAND: GET /session/3df6c5a136c93f956fa17cffcf126400/window - {}
+RESULT: {}
+RESULT: {}
+COMMAND: DELETE /session/3df6c5a136c93f956fa17cffcf126400 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

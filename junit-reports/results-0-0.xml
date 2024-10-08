@@ -1,33 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites tests="1" failures="0" errors="0" skipped="0">
-  <testsuite name="Demo Tests" timestamp="2024-10-08T10:33:53" time="0.922" tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Demo Tests" timestamp="2024-10-08T17:11:30" time="1.241" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="Demo Tests"/>
-      <property name="capabilities" value="chrome.129_0_6668_90.mac"/>
+      <property name="capabilities" value="firefox.131_0.mac"/>
       <property name="file" value="file://./test/specs/logintest.js"/>
     </properties>
-    <testcase classname="chrome.129_0_6668_90.mac.Demo_Tests" name="Login Test" time="0.92">
+    <testcase classname="firefox.131_0.mac.Demo_Tests" name="Login Test" time="1.241">
       <system-out><![CDATA[
-COMMAND: GET /session/58fcbf07191f138f7682b6f17d19ff8e/window - {}
+COMMAND: GET /session/dd3914fe-1153-483a-9968-dac564d1fc26/window - {}
 RESULT: {}
-COMMAND: POST /session/58fcbf07191f138f7682b6f17d19ff8e/element - {"using":"css selector","value":"#username"}
-RESULT: {"using":"css selector","value":"#username"}
-COMMAND: POST /session/58fcbf07191f138f7682b6f17d19ff8e/element/f.4BA74E825ABFCBCD1C49B1B2CAE86CE3.d.89062A394BCB8D51911CBB21DC941351.e.2/clear - {}
+COMMAND: POST /session/dd3914fe-1153-483a-9968-dac564d1fc26/element/9cc67608-6906-45f9-8337-bc670e8bbb5f/clear - {}
 RESULT: {}
-COMMAND: POST /session/58fcbf07191f138f7682b6f17d19ff8e/element/f.4BA74E825ABFCBCD1C49B1B2CAE86CE3.d.89062A394BCB8D51911CBB21DC941351.e.2/value - {"text":"tomsmith"}
+COMMAND: POST /session/dd3914fe-1153-483a-9968-dac564d1fc26/element/9cc67608-6906-45f9-8337-bc670e8bbb5f/value - {"text":"tomsmith"}
 RESULT: {"text":"tomsmith"}
-COMMAND: POST /session/58fcbf07191f138f7682b6f17d19ff8e/element/f.4BA74E825ABFCBCD1C49B1B2CAE86CE3.d.89062A394BCB8D51911CBB21DC941351.e.4/clear - {}
+COMMAND: POST /session/dd3914fe-1153-483a-9968-dac564d1fc26/element/86929df0-99eb-45bf-af11-dc8ba37cea16/clear - {}
 RESULT: {}
-COMMAND: POST /session/58fcbf07191f138f7682b6f17d19ff8e/element/f.4BA74E825ABFCBCD1C49B1B2CAE86CE3.d.89062A394BCB8D51911CBB21DC941351.e.4/value - {"text":"SuperSecretPassword!"}
+COMMAND: POST /session/dd3914fe-1153-483a-9968-dac564d1fc26/element/86929df0-99eb-45bf-af11-dc8ba37cea16/value - {"text":"SuperSecretPassword!"}
 RESULT: {"text":"SuperSecretPassword!"}
-COMMAND: POST /session/58fcbf07191f138f7682b6f17d19ff8e/element/f.4BA74E825ABFCBCD1C49B1B2CAE86CE3.d.89062A394BCB8D51911CBB21DC941351.e.5/click - {}
-COMMAND: GET /session/58fcbf07191f138f7682b6f17d19ff8e/window - {}
+COMMAND: POST /session/dd3914fe-1153-483a-9968-dac564d1fc26/element/850d807e-7d8b-4787-96c1-a52f5b395cb3/click - {}
+COMMAND: GET /session/dd3914fe-1153-483a-9968-dac564d1fc26/window - {}
 RESULT: {}
 RESULT: {}
-COMMAND: GET /session/58fcbf07191f138f7682b6f17d19ff8e/element/f.4BA74E825ABFCBCD1C49B1B2CAE86CE3.d.6CA2A375989DD389308CE27A70903A95.e.14/text - {}
+COMMAND: GET /session/dd3914fe-1153-483a-9968-dac564d1fc26/element/938c0767-ac1a-4802-8da7-8f8460eb5afe/text - {}
 RESULT: {}
-COMMAND: DELETE /session/58fcbf07191f138f7682b6f17d19ff8e - {}
+COMMAND: DELETE /session/dd3914fe-1153-483a-9968-dac564d1fc26 - {}
 RESULT: {}
 ]]></system-out>
     </testcase>

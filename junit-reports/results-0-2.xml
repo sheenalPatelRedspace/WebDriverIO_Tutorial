@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites tests="1" failures="0" errors="0" skipped="0">
-  <testsuite name="Demo Test" timestamp="2024-10-08T10:33:53" time="2.567" tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Demo Test" timestamp="2024-10-08T17:11:31" time="2.587" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="Demo Test"/>
-      <property name="capabilities" value="chrome.129_0_6668_90.mac"/>
+      <property name="capabilities" value="firefox.131_0.mac"/>
       <property name="file" value="file://./test/specs/test1.js"/>
     </properties>
-    <testcase classname="chrome.129_0_6668_90.mac.Demo_Test" name="My First Test" time="2.564">
+    <testcase classname="firefox.131_0.mac.Demo_Test" name="My First Test" time="2.585">
       <system-out><![CDATA[
-COMMAND: GET /session/22b4033d84b9cd2f0ee6cfff32732f71/window - {}
+COMMAND: GET /session/326669ba-1179-44cd-a6ea-6ac06de40c87/window - {}
 RESULT: {}
-COMMAND: POST /session/22b4033d84b9cd2f0ee6cfff32732f71/element - {"using":"css selector","value":"[name=\"q\"]"}
-RESULT: {"using":"css selector","value":"[name=\"q\"]"}
-COMMAND: POST /session/22b4033d84b9cd2f0ee6cfff32732f71/element/f.828E580A9403B796A0D180B4B0B1D270.d.6C97DD9FB55CAE209047DD51A214D377.e.1/clear - {}
+COMMAND: POST /session/326669ba-1179-44cd-a6ea-6ac06de40c87/element/252d8501-ff9c-42c8-a414-8f60f5b2bfd0/clear - {}
 RESULT: {}
-COMMAND: POST /session/22b4033d84b9cd2f0ee6cfff32732f71/element/f.828E580A9403B796A0D180B4B0B1D270.d.6C97DD9FB55CAE209047DD51A214D377.e.1/value - {"text":"WebdriverIO"}
+COMMAND: POST /session/326669ba-1179-44cd-a6ea-6ac06de40c87/element/252d8501-ff9c-42c8-a414-8f60f5b2bfd0/value - {"text":"WebdriverIO"}
 RESULT: {"text":"WebdriverIO"}
-COMMAND: POST /session/22b4033d84b9cd2f0ee6cfff32732f71/element/f.828E580A9403B796A0D180B4B0B1D270.d.6C97DD9FB55CAE209047DD51A214D377.e.14/click - {}
-COMMAND: POST /session/22b4033d84b9cd2f0ee6cfff32732f71/element/f.828E580A9403B796A0D180B4B0B1D270.d.6C97DD9FB55CAE209047DD51A214D377.e.14/click - {}
-COMMAND: GET /session/22b4033d84b9cd2f0ee6cfff32732f71/window - {}
+COMMAND: POST /session/326669ba-1179-44cd-a6ea-6ac06de40c87/element/dfecdf21-9b4b-477d-a207-5a30d0ad21d4/click - {}
+COMMAND: GET /session/326669ba-1179-44cd-a6ea-6ac06de40c87/window - {}
+RESULT: {}
+COMMAND: POST /session/326669ba-1179-44cd-a6ea-6ac06de40c87/element/dfecdf21-9b4b-477d-a207-5a30d0ad21d4/click - {}
+COMMAND: GET /session/326669ba-1179-44cd-a6ea-6ac06de40c87/window - {}
 RESULT: {}
 RESULT: {}
-COMMAND: DELETE /session/22b4033d84b9cd2f0ee6cfff32732f71 - {}
+COMMAND: DELETE /session/326669ba-1179-44cd-a6ea-6ac06de40c87 - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
